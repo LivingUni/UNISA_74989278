@@ -543,18 +543,6 @@ footer {
   .intro-text {
     font-size: 4rem; /* Adjust the font size for mobile screens */
   }
-<<<<<<< HEAD
-
-  .floating-image {
-    width: 20px;
-  }
-
-  .body-section-image {
-    display: none;
-  }
-
-=======
->>>>>>> parent of d146586... mobile changes
 }
 
 @media screen and (min-width: 768px) {
