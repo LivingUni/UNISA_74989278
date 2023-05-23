@@ -8,6 +8,11 @@ h1 {
     color: white;
 }
 /*Floating images*/
+
+.container {
+  position: relative;
+}
+
 .floating-image {
   position: absolute;
   animation: float 5s ease-in-out infinite;
@@ -293,12 +298,12 @@ h1 {
 
 .body-section-container {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 
 .body-section-text {
-  width: 50%;
+  flex: 1 1 100%;
   padding-right: 10px;
   padding-left: 2%;
 
@@ -313,13 +318,8 @@ h1 {
 }
 
 .body-section-image {
-  width: 50%;
-  padding-left: 2%;
-  height: auto;
-}
-
-.body-section-image img {
   width: 100%;
+  padding-left: 2%;
   height: auto;
 }
 
@@ -356,6 +356,8 @@ h1 {
   border-radius: 30px 30px 0 0; 
 }
 /**/
+
+
 .end-cap {
   background-color: #2883E8; /* Or any color you prefer */
   color: white;
@@ -543,13 +545,35 @@ footer {
   }
 
   .floating-image {
-    width: 70px;
+    width: 20px;
   }
-  
+
+  .body-section-image {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
   .intro-text {
     font-size: 3rem; /* Adjust the font size for larger screens */
   }
+
+  .body-section-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .body-section-text {
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 2%;
+  }
+
+  .body-section-image {
+    width: 50%;
+    padding-left: 2%;
+  }
+
 }
