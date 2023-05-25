@@ -303,7 +303,7 @@ h1 {
 }
 
 .body-section-text {
-  flex: 1 1 100%;
+  flex: 1;
   padding-right: 10px;
   padding-left: 2%;
 
@@ -318,8 +318,12 @@ h1 {
 }
 
 .body-section-image {
-  width: 100%;
+  flex: 1;
   padding-left: 2%;
+}
+
+.body-section-image img {
+  max-width: 100%;
   height: auto;
 }
 
@@ -548,23 +552,6 @@ footer {
 @media screen and (min-width: 768px) {
   .intro-text {
     font-size: 3rem; /* Adjust the font size for larger screens */
-  }
-
-  .body-section-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-  }
-
-  .body-section-text {
-    width: 50%;
-    padding-right: 10px;
-    padding-left: 2%;
-  }
-
-  .body-section-image {
-    width: 50%;
-    padding-left: 2%;
   }
 
 }
