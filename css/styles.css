@@ -457,15 +457,15 @@ h1 {
 
 .intro-text {
   text-align: center;
-  font-size: 10vw + 5%;
+  font-size: 5vw;
   width: 100%;
   font-family: 'Roboto', sans-serif;
   color: #337dec; 
   text-shadow: 2px 2px black; 
-  font-weight: black 900;
+  font-weight: 900;
 }
 
-.text-highlight-section-2 {
+.text-highlight-section-2 h1{
   color: #ff4dff;
 }
 /**/
