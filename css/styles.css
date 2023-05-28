@@ -21,13 +21,13 @@ h1 {
 }
 
 #float1 {
-  top: 150px; 
-  left: 50px; 
+  top: 100px; 
+  left: 20%; 
 }
 
 #float2 {
-  top: 50%; 
-  left: 90%; 
+  top: 0px; 
+  left: 0px; 
 }
 
 @keyframes float {
@@ -160,11 +160,8 @@ h1 {
 }
 
 .card-large {
-  background-color: #6EBBF4;
-    background-image: url('images/happy-black-schoolboy-attending-a-class-in-element-2022-11-16-14-45-36-utc_compressed.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+  background: linear-gradient(to right,#6EBBF4, #4d91ab);
+
 }
 
 .large-card-text-highlight {
@@ -222,15 +219,15 @@ h1 {
 
 
 .card-top-right {
-  background-color: #3b3a38;
+  background: linear-gradient(#ff6680,#ff5975);
 }
 
 .card-bottom-right-1 {
-  background-color: #c86bfa;
+  background: linear-gradient(to left,#c86bfa,#c65cff);
 }
 
 .card-bottom-right-2 {
-  background-color: #0769c5;
+  background: linear-gradient(#0769c5, #07549c) ;
 }
 
 .card {
@@ -273,6 +270,7 @@ h1 {
 /*Section Styles under mains*/
 
 .section-text {
+  position: relative;
   font-size: 1.2em;
   line-height: 1.5;
   font-family: Arial, sans-serif;
