@@ -1,18 +1,38 @@
 .about-hero {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 50px 0;
-    background-color: white;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  background-image: url('../images/about_background1.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  padding: 50px 0;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 91%, 0% 50%);
+}
+
+.hero-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  clip-path: ellipse(80% 80% at 50% 50%);
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
   .hero-content,
   .hero-image {
     flex: 1 1 300px;  
     margin: 10px;
     padding-left : 50px;
     text-align: left;
+    position: relative;
   }
   
   .hero-content h1 {
@@ -20,27 +40,108 @@
     color: black;
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    text-shadow: 3px 3px 0px #FF0000, -1px -1px 0px #FFFFFF, 1px -1px 0px #FFFFFF, -1px 1px 0px #FFFFFF, 1px 1px 0px #FFFFFF;
   }
   
   .hero-content p {
     font-size: 1.5rem;
-    color: black;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px rgba(231, 231, 231, 0.5);
   }
   
   .hero-image img {
     max-width: 100%;
     height: auto;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
   }
-
+  
+  .cta-container {
+    position: relative;
+    bottom: 10px;
+    
+  }
+  
   .cta-button {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #008cba;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #008cba;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
   
+/*Media quarry for mobile*/
+@media screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 3rem; 
+    text-align: center;
+
+  }
+
+  .cta-container {
+    text-align: center;
+  }
+
+  .hero-image img {
+    clip-path: none; 
+    alighn : center;
+  }
+
+  .hero-image{
+padding: 0px;
+  }
+
+  .hero-content{
+    padding: 0px;
+  }
+
+  .hero-content p {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+
+/*History statment section*/
+.image-overlay-section {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+  width: auto;
+  height: 300px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-box {
+  padding: 20px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.text-box h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.text-box p {
+  font-size: 16px;
+  margin: 0;
+}
+
+
