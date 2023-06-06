@@ -11,6 +11,11 @@
   clip-path: polygon(0 0, 100% 0, 100% 93%, 50% 100%, 0 91%, 0% 50%);
 }
 
+body {
+  background: rgb(221,230,237);
+  background: linear-gradient(180deg, rgba(221,230,237,1) 35%, rgba(157,178,191,1) 100%);
+}
+
 .hero-inner {
   display: flex;
   flex-wrap: wrap;
@@ -106,33 +111,6 @@ padding: 0px;
 
 
 /*History statment section*/
-.image-overlay-section {
-  position: relative;
-}
-
-.image-container {
-  position: relative;
-}
-
-.image-container img {
-  display: block;
-  width: auto;
-  height: 300px;
-}
-
-.text-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.text-box {
-  padding: 20px;
-  background-color: white;
-  border: 2px solid black;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-}
 
 .text-box h2 {
   font-size: 24px;
@@ -141,7 +119,50 @@ padding: 0px;
 
 .text-box p {
   font-size: 16px;
-  margin: 0;
+  margin: 24px;
 }
 
+.text-box {
+  padding: 20px;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  height: auto;
+  width: 380px;
+}
 
+.text-box-margin {
+  margin-top: 10%;
+  margin-left: 50%;
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.item-1{
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.item-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.image-inside {
+ width: auto;
+ height: 550px;
+ box-shadow: 0px 4px 8px rgba(231, 12, 213, 0.25);
+}
+
+.reverse-position{
+  z-index: 1;
+}
+
+.sections-spaceing { 
+  margin-bottom: 25px;
+}
