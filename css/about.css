@@ -129,7 +129,7 @@ padding: 0px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   text-align: center;
   height: auto;
-  width: 380px;
+  width: 600px;
 }
 
 .text-box-margin {
@@ -168,6 +168,8 @@ padding: 0px;
 .reverse-position{
   position: relative;
   z-index: 2;
+  margin-top: 5%;
+  margin-left: 20%;
 }
 
 .sections-spaceing { 
