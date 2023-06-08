@@ -173,8 +173,6 @@ padding: 0px;
 .reverse-position{
   position: relative;
   z-index: 2;
-  margin-top: 5%;
-  margin-left: 20%;
 }
 
 .sections-spaceing { 
@@ -184,4 +182,35 @@ padding: 0px;
 .z-postition { 
   position: relative;
   z-index: 1;
+}
+
+/*Mobile for grids*/
+
+/*Mobile for grids*/
+
+
+/*End cap*/
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 500px; 
+}
+
+.base-image, .top-image {
+  position: absolute;
+}
+
+.base-image {
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  object-fit: cover;
+}
+
+.top-image {
+  z-index: 1;
+  width: auto; /* Adjust as needed */
+  height: 148%; /* Adjust as needed */
+  left: 0; /* Adjust to position the image as needed */
+  bottom: 0;
 }
