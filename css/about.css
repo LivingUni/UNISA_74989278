@@ -209,8 +209,42 @@ padding: 0px;
 
 .top-image {
   z-index: 1;
-  width: auto; /* Adjust as needed */
-  height: 148%; /* Adjust as needed */
-  left: 0; /* Adjust to position the image as needed */
+  width: auto; 
+  height: 148%; 
+  left: 0; 
   bottom: 0;
+}
+
+.content-box {
+  background: #f9f9f9;
+  border: 1px solid #000;
+  padding: 20px;
+  width: 50%; /* Adjust as needed */
+  height: fit-content; /* Adjust as needed */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 0.5em;
+}
+
+.content-box p {
+  color: #666; 
+  line-height: 1.6; 
+}
+
+.content-box a {
+  color: #007BFF; 
+  text-decoration: none; 
+  z-index: 3;
+}
+
+.content-box h2 {
+  font-size: 2em; 
+  color: #333; 
+  margin-bottom: 0.5em; 
 }
