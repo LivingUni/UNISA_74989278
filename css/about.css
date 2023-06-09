@@ -184,9 +184,7 @@ padding: 0px;
   z-index: 1;
 }
 
-/*Mobile for grids*/
 
-/*Mobile for grids*/
 
 
 /*End cap*/
@@ -241,6 +239,8 @@ padding: 0px;
   color: #007BFF; 
   text-decoration: none; 
   z-index: 3;
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 .content-box h2 {
@@ -248,3 +248,45 @@ padding: 0px;
   color: #333; 
   margin-bottom: 0.5em; 
 }
+
+
+
+/*Mobile for grids*/
+@media screen and (max-width: 768px) {
+  .container-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .item-1, .item-2, .item-2-align-right {
+    grid-area: auto / auto / auto / auto;
+  }
+
+  .text-box, .text-box-margin, .text-box-margin-2 {
+    width: 80%; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .text-box-margin, .text-box-margin-2 {
+    margin-top: 20px;
+  }
+
+  .image-inside {
+    width: 100%;
+    height: auto;
+  }
+
+  .content-box {
+    margin-top:0;
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .image-container > .top-image {
+    height: 50%;
+}
+
+}
+/*Mobile for grids*/
