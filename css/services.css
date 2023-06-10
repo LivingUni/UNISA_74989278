@@ -103,7 +103,7 @@ p {
 
 .svg-container {
     width: 100%;
-    height: 200px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -112,6 +112,7 @@ p {
   .svg-container img {
     display: block;
     width: 100%;
+    
   }
 
 @media (max-width: 768px) {
@@ -151,7 +152,7 @@ p {
   
   .service-block {
     width: 30%;
-    padding: 10px;
+    padding: 18px;
     box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -187,3 +188,13 @@ p {
   }
 
    /*Mobile view for block section*/
+
+   /*Section 02 under summery page*/
+
+ .section-02 {
+    background-color: #f0da33;
+    padding-top: 80px;
+    z-index: 3;
+ }
+
+   /*Section 02 under summery page*/
