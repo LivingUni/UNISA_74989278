@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
 p {
     line-height: 1.6; 
     font-size: 1.2em;
@@ -34,9 +38,10 @@ p {
 
 .hero-image > img {
     width: 100%;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
 }
 
-.hero-text h2 {
+.hero-text > h2 {
   font-size: 2rem;
   color: white;
 }
@@ -137,17 +142,19 @@ p {
   /*Section under the services heroe section*/
   .hero-section {
     position: relative;
-    z-index: 1;
+    
   }
   
   .services-section {
-    position: absolute;
-    z-index: 2;
+    position: relative;
     top: 95%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 100%;
+    padding-top : 20px;
+    margin-bottom: 35px;
+    background-image: url(../images/services-heroe-bottom.svg);
   }
   
   .service-block {
@@ -192,9 +199,119 @@ p {
    /*Section 02 under summery page*/
 
  .section-02 {
-    background-color: #f0da33;
+   background: linear-gradient(to bottom,#f0da33 , #f1dd41);
     padding-top: 80px;
-    z-index: 3;
+    padding-bottom: 50px;
  }
 
+ .section-02  h1 {
+  font-size: 2.5rem;
+  color: black;
+ }
+
+ .flex-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+
+.text-container {
+  max-width: 50%;  
+  margin-right: 2em;  
+}
+
+.image-container {
+  max-width: 50%;  
+  text-align: right;  
+
+.image-container img {
+  max-width: 10%;  
+  height: 10%; 
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.section-02 button {
+  font-size: 1rem;
+  margin-top: 2rem;
+  padding: 1rem 2rem;
+  background: #333;
+  color: #e2ff24;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.section-02 button:hover {
+  background: #1b99ca;
+}
+
+.card-servies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: auto; 
+  height: auto; 
+  border: 1px;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 10px;
+}
+
+.card-image {
+  width: 80%; /* Change as needed */
+  height: auto;
+}
+
+.card-title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card-description {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.card-button {
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .flex-section {
+    flex-direction: column;
+  }
+
+  .text-container,
+  .image-container {
+    max-width: 100%;
+  }
+
+  .text-container {
+    margin-right: 10px;
+  }
+}
+
    /*Section 02 under summery page*/
+
+   /*Section 03 Become A teacher*/
+   .section-03 {
+    background: linear-gradient(to bottom,#606fdc , #3d4bb9);
+     padding-top: 80px;
+     padding-bottom: 50px;
+  }
+ 
+     /*Section 03 Become A teacher*/
