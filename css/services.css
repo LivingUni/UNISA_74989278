@@ -90,6 +90,25 @@ p {
   text-decoration-thickness: 2px;
 }
 
+.highlight05 {
+  background-color: #2883E8;
+  color: #0d1b2a;
+  padding: 3px;
+  display: inline-block;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.highlight06 {
+  background-color: #87ea00;
+  color: black;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  transform: rotate(-1deg);
+  outline: dashed 2px black; /* Adjust these values to create fewer, thicker dashes */
+  outline-offset: -5px; 
+}
+
 .hero-text button {
   font-size: 1rem;
   margin-top: 2rem;

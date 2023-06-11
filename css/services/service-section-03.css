@@ -1,0 +1,97 @@
+/*Selected colors
+.service-block001 {
+    background: #f0da33;
+  }
+.service-block002 {
+    background: #606fdc;
+  }
+  .service-block003 {
+    background: #8e98e6;
+  }
+Selected colors*/
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+.centered-heading {
+    text-align: center;
+    padding-top: 25px;
+}
+.section-03 {
+    background-image: linear-gradient(to bottom, #f0da33, #eed82e);
+    
+}
+
+.service-section-03 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .service-section-03-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .service-section-03-image {
+    flex: 1;
+    padding-left: 20px;
+    max-width: 500px; /* adjust as needed */
+    overflow: hidden; /* hides the parts of the image that doesn't fit the container */
+  }
+  
+  .service-section-03-image img {
+    max-width: 100%; /* make sure the image doesn't overflow its container */
+    height: auto; /* maintains aspect ratio */
+  }
+  
+  .service-section-03-text button {
+    display: block; 
+    margin-top: 20px; /* adds some space above the button */
+  }
+
+
+  .service-section-03-text button {
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: #333;
+    color: #e2ff24;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .service-section-03-text button:hover {
+    background: #4507d6;
+  }
+
+  /*SERIVCE CARD SECTION HIGHLIGHTS*/
+  .card-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .card {
+    text-align: center;
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #db5caa;
+  }
+  
+  .card-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  
+
