@@ -1,0 +1,61 @@
+.services-section-04 {
+    background-image: linear-gradient( #606fdc, #4759e2);
+    padding: 30px 0;
+}
+
+.services-section-04-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px; /* Adjust as needed */
+}
+
+.services-section-04-image img {
+    flex: 1;
+    max-width: 500px; 
+    object-fit: cover; /* To maintain aspect ratio */
+}
+
+.services-section-04-text {
+    flex: 1;
+    padding-left: 20px; /* Adjust as needed */
+}
+
+.services-section-04-text button {
+    display: block; 
+    margin: 20px 0 0; /* Centered and moved to top */
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    background: #333;
+    color: #e2ff24;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+  
+.services-section-04-text button:hover {
+    background: #d32e52;
+}
+
+@media screen and (max-width: 768px) { /* Adjust breakpoint as needed */
+    .services-section-04-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .services-section-04-image, .services-section-04-text {
+        flex: unset;
+        max-width: 100%;
+    }
+
+    .services-section-04-image img {
+        max-width: 100%;
+    }
+
+    .services-section-04-text button {
+        align-items: center;
+    }
+
+}
+

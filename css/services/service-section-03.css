@@ -10,9 +10,13 @@
   }
 Selected colors*/
 
-h1 {
+h1 h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
 }
 
 .centered-heading {
@@ -38,18 +42,18 @@ h1 {
   .service-section-03-image {
     flex: 1;
     padding-left: 20px;
-    max-width: 500px; /* adjust as needed */
-    overflow: hidden; /* hides the parts of the image that doesn't fit the container */
+    max-width: 500px; 
+    overflow: hidden; 
   }
   
   .service-section-03-image img {
-    max-width: 100%; /* make sure the image doesn't overflow its container */
-    height: auto; /* maintains aspect ratio */
+    max-width: 100%; 
+    height: auto; 
   }
   
   .service-section-03-text button {
     display: block; 
-    margin-top: 20px; /* adds some space above the button */
+    margin-top: 20px; 
   }
 
 
@@ -92,6 +96,97 @@ h1 {
     height: 100px;
   }
   
+/*Table Section*/
+table.darkTable {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    border: 2px solid #92928e;
+    background-color: #a2ac69;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  table.darkTable td, table.darkTable th {
+    border: 1px solid #4A4A4A;
+    padding: 3px 2px;
+  }
+  table.darkTable tbody td {
+    font-size: 13px;
+    color: #E6E6E6;
+  }
+  table.darkTable tr:nth-child(even) {
+    background: #888888;
+  }
+  table.darkTable thead {
+    background: #000000;
+    border-bottom: 3px solid #000000;
+  }
+  table.darkTable thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #E6E6E6;
+    text-align: center;
+    border-left: 2px solid #4A4A4A;
+  }
+  table.darkTable thead th:first-child {
+    border-left: none;
+  }
   
+  table.darkTable tfoot {
+    font-size: 12px;
+    font-weight: bold;
+    color: #E6E6E6;
+    background: #000000;
+    background: -moz-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: -webkit-linear-gradient(top, #404040 0%, #191919 66%, #000000 100%);
+    background: linear-gradient(to bottom, #404040 0%, #191919 66%, #000000 100%);
+    border-top: 1px solid #4A4A4A;
+  }
+  table.darkTable tfoot td {
+    font-size: 12px;
+  }
+
+  /*Only solution that worked?! ask the form or present maybe*/
+  .checkmark {
+    color: green;
+    font-size: 25px; 
+  }
+
+  .crossmark {
+    color: red; 
+    font-size: 25px; 
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card-section {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0;
+    }
+  
+    .service-section-03 {
+      flex-direction: column;
+      padding: 11px;
+      text-align: center;
+    }
+  
+    .service-section-03-text,
+    .service-section-03-image {
+      flex: 0;
+      width: 100%;
+      padding: 10px;
+    }
+
+    .service-section-03-text button {
+        display: inline;
+        align-items: center;
+    }
+  }
   
 
