@@ -1,9 +1,9 @@
-.service-section-03-text button {
-    display: block; 
+.button {
+    display: inline-block; 
     margin-top: 20px; 
   }
 
-  .service-section-03-text button {
+  .button {
     font-size: 1rem;
     margin-top: 2rem;
     padding: 1rem 2rem;
@@ -20,7 +20,8 @@
     background: #4507d6;
   }
 
-  .hero-text button {
+  .button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2rem;
     margin-top: 2rem;
     padding: 1rem 2rem;
@@ -47,5 +48,9 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background 0.3s ease;
+  }
+
+  .button:hover {
+    background: #4507d6;
   }
   /*Admissions page buttons*/
