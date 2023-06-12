@@ -1,3 +1,7 @@
+.a-section-02 {
+    text-align: center;
+    background-image: linear-gradient(to bottom, white,#8ce5df);
+}
 
 .a-section-02 > h1 {
  padding-top: 80px;
@@ -7,13 +11,14 @@
 }
 
 .a-section-02 .button01 {
-    display: inline;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    font-size: 4.2rem;
+    margin-bottom: 30px;
+    font-size: 3.2rem;
     margin-top: 2rem;
     padding: 1rem 2rem;
-    background: #ba6bcc;
+    background: #1dab3e;
     color: white;
     border: 1px solid black;
     border-radius: 5px;
