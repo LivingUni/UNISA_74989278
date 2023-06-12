@@ -1,0 +1,39 @@
+.service-section-03-text button {
+    display: block; 
+    margin-top: 20px; 
+  }
+
+  .service-section-03-text button {
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: #333;
+    color: #e2ff24;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .service-section-03-text button:hover {
+    background: #4507d6;
+  }
+
+  .hero-text button {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: #333;
+    color: #e2ff24;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .hero-text button:hover {
+    background: #ffb83d;
+  }
+
+  /*Admissions page buttons*/
+
+  /*Admissions page buttons*/

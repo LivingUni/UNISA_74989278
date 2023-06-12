@@ -1,0 +1,37 @@
+/*Selected colors
+.service-block001 {
+    background: #f0da33;
+  }
+.service-block002 {
+    background: #606fdc;
+  }
+  .service-block003 {
+    background: #8e98e6;
+  }
+Selected colors*/
+
+h1 h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.centered-heading {
+    text-align: center;
+    padding-top: 25px;
+}
+.section-05 {
+    background-image: linear-gradient(to bottom, #606fdc, #4d57a2);
+}
+
+.highlighted-general { 
+    background-color: #ff0;  
+    padding: 5px;  
+}
+
+@media screen and (max-width: 768px) {
+    
+    }
