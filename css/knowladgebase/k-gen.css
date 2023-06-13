@@ -1,0 +1,13 @@
+
+
+.end-cap {
+    background-color: green;
+    height: auto;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+.end-cap h1 {
+    text-align: center;
+}

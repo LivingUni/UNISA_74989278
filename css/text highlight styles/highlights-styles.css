@@ -53,3 +53,10 @@
   outline: dashed 2px black; /* Adjust these values to create fewer, thicker dashes */
   outline-offset: -5px; 
 }
+
+.highlight07 {
+    background-image: linear-gradient(to right, #F27121cc, #E94057cc, #8A2387cc);
+    border-radius: 6px;
+    padding: 3px 6px;
+  
+}

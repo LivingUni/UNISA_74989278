@@ -1,0 +1,63 @@
+.k-section-03 {
+    background-color: #F5F5F5;
+    font-size: 22px;
+    
+}
+
+.kb-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.kb-sidebar {
+    order: 2;
+    border-right: none;
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.kb-sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.kb-sidebar li {
+    margin-bottom: 0.5rem;
+}
+
+.kb-main {
+    order: 1;
+    padding: 1rem;
+}
+
+.kb-main article {
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width: 768px) {
+    .kb-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .kb-sidebar {
+        order: 1;
+        border-right: 1px solid #ccc;
+        border-top: none;
+        width: 20%;
+        padding: 2rem;
+    }
+
+    .kb-main {
+        /*order according to stack overflow is to assist in the item order, did not see this in the book go check again you must have missed this*/
+        order: 2;
+        width: 75%;
+        padding: 2rem;
+    }
+
+    .kb-main article {
+        margin-bottom: 2rem;
+    }
+}
+
