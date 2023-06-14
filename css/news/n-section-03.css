@@ -1,0 +1,33 @@
+.n-section-03 {
+    margin-top: 20px;
+    background-image: url("/images/new-section-01.svg");
+    background-size: cover;
+}
+
+.n-section-03-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.n-section-03-items {
+    justify-content: space-around;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.n-section-03-items img {
+    max-width: 500px;
+    height: 100%;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+
+}
+
+.n-section-03 h2{
+ color: blueviolet;
+}
+
+
+@media screen and (max-width: 600px) {
+    
+}

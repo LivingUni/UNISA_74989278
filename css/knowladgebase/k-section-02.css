@@ -1,8 +1,4 @@
 /*messing around with flex in flex*/
-.k-section-03 {
-    font-size: 16px;
-}
-
 .introduction-container {
     display: flex;
     width: 100%;

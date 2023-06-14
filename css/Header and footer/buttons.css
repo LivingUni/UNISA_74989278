@@ -54,3 +54,24 @@
     background: #4507d6;
   }
   /*Admissions page buttons*/
+
+  /*news Buttons*/
+
+  .button-n {
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background: #c62368;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .button-n:hover {
+    background: #fa7268;
+    color: #4507d6;
+  }
