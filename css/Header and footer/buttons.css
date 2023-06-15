@@ -75,3 +75,47 @@
     background: #fa7268;
     color: #4507d6;
   }
+
+  /*HEAD FIX*/
+  .card-button {
+    background-color: #343a40;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .card-button:hover {
+    background-color: #ffa2a2;
+  }
+  /*Head fix end*/
+
+
+  /*Courses section buttons*/
+
+  .button-c {
+    font-size: 1rem;
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    background: #c62368;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+  }
+
+  .button-c:hover {
+    background-color: #e60707;
+  }

@@ -10,18 +10,28 @@
  <title>Abacus Home</title>
  <link rel="stylesheet" href="css/styles.css">
  <link rel="stylesheet" href="css/Header and footer/buttons.css">
+ <link rel="stylesheet" href="css/Header and footer/cleanheaderfooter.css">
+ <link rel="stylesheet" href="css/text highlight styles/highlights-styles.css">
 </head>
 
 <body> 
     <header>
-        <nav class="navbar">
-            <ul class="navbar-list">
-              <li class="navbar-item"><a href="#" class="navbar-link">Home</a></li>
-              <li class="navbar-item"><a href="about.html" class="navbar-link">About</a></li>
-              <li class="navbar-item"><a href="services.html" class="navbar-link">Services</a></li>
-              <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
-            </ul>
-          </nav>
+      <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="index.html" class="navbar-link">Home</a></li>
+            <li class="navbar-item dropdown">
+                <a href="about.html" class="navbar-link">About<span class="dropdown-indicator">&#x25BE;</span></a>
+                <div class="dropdown-content">
+                    <a href="admissions.html">ADMISSIONS</a>
+                    <a href="knowladgebase.html">KNOWLEDGE BASE</a>
+                    <a href="news.html">NEWS & EVENTS</a>
+                    <a href="courses.html">COURSES</a>
+                </div>
+            </li>
+            <li class="navbar-item"><a href="services.html" class="navbar-link">Services</a></li>
+            <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
+        </ul>
+    </nav>
     </header>
     <section id="heroe"> 
         <h1> ABACUS MATHS  <br>
@@ -41,28 +51,23 @@
 <section class="cards-container">
   <div class="card card-large">
     <h2><span class="large-card-text-highlight">UNLOCK</span> THE SECRET TO BRAIN POWER</h2>
-    <button class="card-button">Learn More</button>
-    <div>
-      <a href="about.html" class="card-botton">Learn More</a>
-    </div>
-
-    <div><a href="contact.html" class="button">Let's CHAT</a></div>
+    <div> <a href="contact.html" class="card-button"> Learn More</a></div>
     
    </div>
 
   <div class="card card-top-right">
     <h2>We do <span class="block-2-highlight"> FRANCHISING </span> </h2>
-    <button class="card-button">Learn More</button>
+    <div> <a href="services.html" class="card-button">Learn More</a></div>
   </div>
 
   <div class="card card-bottom-right-1">
     <h2>CHECK OUT OUR <span class="card-2-highlight">PRIVATE ACADEMIES</span></h2>
-    <button class="card-button">Learn More</button>
+    <div> <a href="services.html" class="card-button">Learn More</a></div>
   </div>
 
   <div class="card card-bottom-right-2">
     <h2>Your <span class="card-4-highlight">AREA</span> missing out?</h2>
-    <button class="card-button">Become a teacher</button>
+    <div> <a href="services.html" class="card-button">Learn More</a></div>
   </div>
 
 </section>
@@ -80,7 +85,7 @@
 <p>Dive into the realm of mathematics and uncover the untapped potential within you with the abacus. This ancient tool holds the key to unlocking a multitude of benefits that can enhance your mathematical prowess and cognitive abilities.</p>
 
 <button class="body-section-button" onclick="location.href='contact.html'">Contact Us</button>
-<button class="body-section-button" onclick="location.href='about.html'">Knowledge base</button>
+<button class="body-section-button" onclick="location.href='knowladgebase.html'">Knowledge base</button>
 </div>
     <div class="body-section-image">
       <img src="images\ABACUS.jpg" alt="Abacus">
@@ -120,24 +125,22 @@
 <div class="end-cap">
   <h2>Curious to Explore the Inner Mechanics of the Program?</h2>
   <p>Including academic research and fun stuff to read if your into that</p>
-  <a href="about.html" class="end-cap-button">Knowledge Base</a>
+  <a href="knowladgebase.html" class="end-cap-button">Knowledge Base</a>
 </div>
 
 
 <!--Franchising section/other services-->
 <section class="body-sections-2  intro-text"> 
   <div class="text-highlight-section-2">
-      <h1> WE ALSO DO </h1>
-      <br> TEACHING COURSES
-      <br> FRANCHISING
+      <h1> <span class="highlight05"> WE ALSO DO</span> 
+      <br>  <span class="highlight07">TEACHING COURSES</span> 
+      <br> <span class="hollow-text-highlight">FRANCHISING </span> 
       <br> PRIVATE FULL TIME ACADEMIES
+    </h1>
     </div>
   </div>
 </section>
 <!--Franchising section/ other services END-->
-
-</body>
-
 
 <footer>
   <div class="footer-content">
@@ -145,11 +148,20 @@
     <ul class="footer-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About Us</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="admissions.html">Admisions</a></li>
+      <li><a href="knowladgebase.html">Knowladgebase</a></li>
       <li><a href="contact.html">Contact</a></li>
+      <li><a href="courses.html">Courses</a></li>
     </ul>
   </div>
 </footer>
+
+</body>
+
+
+
 
 
 </html>

@@ -3,3 +3,57 @@
     background-size: cover;
 }
 
+.c-section-01 h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.c-section-01-container {
+    display: flex;
+    justify-content: space-around;  
+    flex-wrap: wrap; 
+    padding: 1rem; 
+}
+
+.c-section-01-items {
+    flex: 0 1 200px; 
+    margin: 1rem;
+    text-align: center; 
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2); 
+    padding: 1rem; 
+    background-color: #ff0000;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.c-section-01-items img {
+    max-width: 400px;
+}
+
+.color01 {
+    background-color: #8d33e6;
+}
+
+.color02 {
+    background-color: #ee72ee;
+}
+
+.color03 {
+    background-color: #cd6eed;
+}
+
+.color04 {
+    background-color: #987bef;
+}
+
+.color05 {
+    background-color: #6e6eed;
+}
+
+.color06 {
+    background-color: #420e76;
+}
+
+.color07 {
+    background-color: #382d43;
+}
