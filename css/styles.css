@@ -485,7 +485,6 @@ h1 {
   font-weight: 900;
   padding-bottom: 50px;
   background-image: url("/images/chevron-min.jpg");
-  background-image: cover;
 }
 
 .text-highlight-section-2 h1{
