@@ -104,7 +104,7 @@ h1 {
   padding: 5px;
   border-radius: 5px;
   transform: rotate(-10deg);
-  outline: dashed 2px black; /* Adjust these values to create fewer, thicker dashes */
+  outline: dashed 2px black; 
   outline-offset: -5px; 
 }
 
@@ -114,7 +114,7 @@ h1 {
   display: inline-block;
   padding: 5px;
   border-radius: 5px;
-  outline: dashed 2px black; /* Adjust these values to create fewer, thicker dashes */
+  outline: dashed 2px black; 
   outline-offset: -5px; 
 }
 
@@ -382,7 +382,7 @@ h1 {
 
 
 .end-cap {
-  background-color: #2883E8; /* Or any color you prefer */
+  background-color: #2883E8; 
   color: white;
   text-align: center;
   padding: 20px 0;
@@ -466,8 +466,8 @@ h1 {
   color: black;
   text-align: center; 
   background-image: url('images/chevron.jpg'); 
-  background-repeat: repeat-x; /* Repeat horizontally */
-  background-size: cover; /* Adjust as needed */
+  background-repeat: repeat-x; 
+  background-size: cover; 
   background-position: top;
 }
 

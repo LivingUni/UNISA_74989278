@@ -105,7 +105,7 @@ p {
   padding: 10px;
   border-radius: 10px;
   transform: rotate(-1deg);
-  outline: dashed 2px black; /* Adjust these values to create fewer, thicker dashes */
+  outline: dashed 2px black; 
   outline-offset: -5px; 
 }
 
@@ -285,7 +285,7 @@ p {
 }
 
 .card-image {
-  width: 80%; /* Change as needed */
+  width: 80%; 
   height: auto;
 }
 

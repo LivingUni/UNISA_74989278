@@ -268,7 +268,7 @@ padding: 0px;
   }
 
   .text-box, .text-box-margin, .text-box-margin-2 {
-    width: 80%; /* Adjust as needed */
+    width: 80%; 
     margin-left: auto;
     margin-right: auto;
     line-height: 1.6; 

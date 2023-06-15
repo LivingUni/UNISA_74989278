@@ -50,8 +50,7 @@
   padding: 10px;
   border-radius: 10px;
   transform: rotate(-1deg);
-  outline: dashed 2px black; /* Adjust these values to create fewer, thicker dashes */
-  outline-offset: -5px; 
+  outline: dashed 2px black; 
 }
 
 .highlight07 {
