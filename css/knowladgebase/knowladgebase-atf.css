@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
-    background-image: url('../images/base.svg');
+    background-image: url('../../images/base.svg');
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
